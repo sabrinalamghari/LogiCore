@@ -1,0 +1,8 @@
+#Test for Opcode 
+Opcode[6]  Shift  Data_Processing Load_Store SP_Address Conditional
+
+000000  1 0 0 0 0 
+010000  0 1 0 0 0
+100100  0 0 1 0 0
+101100  0 0 0 1 0
+110100  0 0 0 0 1
