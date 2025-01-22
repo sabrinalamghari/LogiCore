@@ -155,11 +155,11 @@ end TCL_Generic;
     <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(100,660)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="OUT_Z"/>
+      <a name="label" val="IN_Z"/>
     </comp>
     <comp lib="0" loc="(100,720)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="IN_C"/>
+      <a name="label" val="OUT_C"/>
     </comp>
     <comp lib="0" loc="(110,130)" name="Pin">
       <a name="appearance" val="classic"/>
@@ -168,15 +168,15 @@ end TCL_Generic;
     </comp>
     <comp lib="0" loc="(110,500)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="IN_N"/>
+      <a name="label" val="OUT_N"/>
     </comp>
     <comp lib="0" loc="(110,760)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="OUT_C"/>
+      <a name="label" val="IN_C"/>
     </comp>
     <comp lib="0" loc="(120,540)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="OUT_N"/>
+      <a name="label" val="IN_N"/>
     </comp>
     <comp lib="0" loc="(130,260)" name="Tunnel">
       <a name="label" val="CLK"/>
@@ -190,15 +190,15 @@ end TCL_Generic;
     </comp>
     <comp lib="0" loc="(130,840)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="IN_V"/>
+      <a name="label" val="OUT_V"/>
     </comp>
     <comp lib="0" loc="(130,880)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="OUT_V"/>
+      <a name="label" val="IN_V"/>
     </comp>
     <comp lib="0" loc="(140,620)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="IN_Z"/>
+      <a name="label" val="OUT_Z"/>
     </comp>
     <comp lib="0" loc="(160,180)" name="Tunnel">
       <a name="facing" val="north"/>
