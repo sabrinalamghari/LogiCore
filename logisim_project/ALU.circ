@@ -113,7 +113,7 @@
       <circ-anchor facing="north" x="120" y="200"/>
       <circ-port dir="in" pin="110,100" x="90" y="180"/>
       <circ-port dir="in" pin="110,200" x="150" y="180"/>
-      <circ-port dir="in" pin="1150,910" x="100" y="200"/>
+      <circ-port dir="in" pin="1150,910" x="450" y="80"/>
       <circ-port dir="in" pin="510,850" x="90" y="200"/>
       <circ-port dir="in" pin="90,280" x="80" y="190"/>
       <circ-port dir="in" pin="90,330" x="100" y="210"/>
