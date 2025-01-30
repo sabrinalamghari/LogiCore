@@ -276,12 +276,13 @@ end TCL_Generic;
     <comp lib="0" loc="(540,80)" name="Tunnel">
       <a name="label" val="Uncond"/>
     </comp>
-    <comp lib="0" loc="(580,450)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="enable"/>
-    </comp>
+    <comp lib="0" loc="(590,450)" name="Constant"/>
     <comp lib="0" loc="(620,170)" name="Bit Extender">
       <a name="out_width" val="11"/>
+    </comp>
+    <comp lib="0" loc="(630,510)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="Uncond"/>
     </comp>
     <comp lib="0" loc="(690,140)" name="Splitter">
       <a name="bit1" val="0"/>
@@ -307,7 +308,6 @@ end TCL_Generic;
       <a name="facing" val="south"/>
       <a name="label" val="Z"/>
     </comp>
-    <comp lib="0" loc="(740,460)" name="Constant"/>
     <comp lib="0" loc="(740,80)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="enable"/>
@@ -316,9 +316,9 @@ end TCL_Generic;
       <a name="facing" val="north"/>
       <a name="label" val="Uncond"/>
     </comp>
-    <comp lib="0" loc="(790,510)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="Uncond"/>
+    <comp lib="0" loc="(750,460)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="enable"/>
     </comp>
     <comp lib="0" loc="(910,450)" name="Pin">
       <a name="appearance" val="classic"/>
@@ -374,16 +374,16 @@ end TCL_Generic;
       <a name="facing" val="south"/>
       <a name="size" val="20"/>
     </comp>
-    <comp lib="1" loc="(660,440)" name="AND Gate">
+    <comp lib="1" loc="(870,450)" name="AND Gate">
       <a name="size" val="30"/>
     </comp>
     <comp lib="2" loc="(510,430)" name="Multiplexer">
       <a name="select" val="4"/>
     </comp>
+    <comp lib="2" loc="(650,440)" name="Multiplexer"/>
     <comp lib="2" loc="(770,170)" name="Multiplexer">
       <a name="width" val="11"/>
     </comp>
-    <comp lib="2" loc="(810,450)" name="Multiplexer"/>
     <comp lib="3" loc="(450,80)" name="Comparator">
       <a name="width" val="5"/>
     </comp>
@@ -486,17 +486,18 @@ end TCL_Generic;
     <wire from="(460,170)" to="(460,200)"/>
     <wire from="(460,200)" to="(490,200)"/>
     <wire from="(490,510)" to="(490,590)"/>
-    <wire from="(510,430)" to="(630,430)"/>
+    <wire from="(510,430)" to="(620,430)"/>
     <wire from="(560,160)" to="(560,170)"/>
     <wire from="(560,170)" to="(580,170)"/>
-    <wire from="(580,450)" to="(630,450)"/>
+    <wire from="(590,450)" to="(620,450)"/>
     <wire from="(60,390)" to="(110,390)"/>
     <wire from="(60,390)" to="(60,590)"/>
     <wire from="(60,590)" to="(150,590)"/>
     <wire from="(620,170)" to="(650,170)"/>
+    <wire from="(630,460)" to="(630,510)"/>
     <wire from="(650,170)" to="(650,180)"/>
     <wire from="(650,180)" to="(740,180)"/>
-    <wire from="(660,440)" to="(780,440)"/>
+    <wire from="(650,440)" to="(840,440)"/>
     <wire from="(70,300)" to="(70,310)"/>
     <wire from="(70,310)" to="(110,310)"/>
     <wire from="(70,310)" to="(70,350)"/>
@@ -505,12 +506,11 @@ end TCL_Generic;
     <wire from="(70,500)" to="(100,500)"/>
     <wire from="(710,130)" to="(710,160)"/>
     <wire from="(710,160)" to="(740,160)"/>
-    <wire from="(740,460)" to="(780,460)"/>
     <wire from="(740,80)" to="(870,80)"/>
     <wire from="(750,190)" to="(750,240)"/>
+    <wire from="(750,460)" to="(840,460)"/>
     <wire from="(770,170)" to="(920,170)"/>
-    <wire from="(790,470)" to="(790,510)"/>
-    <wire from="(810,450)" to="(910,450)"/>
+    <wire from="(870,450)" to="(910,450)"/>
     <wire from="(910,80)" to="(920,80)"/>
     <wire from="(920,130)" to="(980,130)"/>
     <wire from="(920,150)" to="(920,170)"/>
